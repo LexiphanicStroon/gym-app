@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "PlateCalculator",
+    "slug": "PlateCalculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/plateicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/mysplash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/plateicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lexiphanicstroon.PlateCalculator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7c5b54ac-54eb-48b1-9be8-6f6bf4534fa6"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
